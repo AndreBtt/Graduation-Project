@@ -1,12 +1,14 @@
 import pandas as pd
-from filtroClima import weatherFilter
-from filtroVoo import flightFilter
+from filtroClima import *
+from filtroVoo import *
 
-originWeather = weatherFilter("climaOrigem.csv")
-print(originWeather.iloc[:,:].head(10))
+# originWeather = weatherFilter("climaOrigem.csv")
+# print(originWeather.iloc[:,:].head(50))
 flights = flightFilter("aviao.csv")
 # flights = pd.get_dummies(flights, columns = ['ICAO Aer�dromo Destino'])
-print(flights.iloc[:,:].head(10))
+print(flights.iloc[:,:].head(100))
+# print('The shape of our features is:', flights.shape)
+
 
 # NO JOIN DA PRA PROCURAR POR PREFIXO 
 

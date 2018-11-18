@@ -16,7 +16,7 @@ def weatherFilter(filePath):
     weather = weather.drop(columns="pto_orvalho_min")
     weather = weather.drop(columns="pressao_max")
     weather = weather.drop(columns="pressao_min")
-    weather = weather.drop(columns=" vento_rajada")
+    # weather = weather.drop(columns=" vento_rajada")
     weather = weather.drop(columns="radiacao")
     # weather = weather.drop(columns="precipitacao")
     weather.rename(columns={'codigo_estacao': 'regiao', 'temp_inst': 'temperatura', 'umid_inst': 'umidade', 'vento_direcao': 'direcaoVento', 'vento_vel' : 'velocidadeVento'}, inplace=True)
