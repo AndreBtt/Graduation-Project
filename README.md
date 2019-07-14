@@ -1,6 +1,6 @@
 # Graduation-Project
 
-Dados dos voos sedidos pela ANAC
+Dados dos voos cedidos pela ANAC
 
 - ICAO Empresa Aérea
 - Número Voo
