@@ -50,7 +50,7 @@
 - Data Partida Prevista
 - Data Chegada Prevista
 
-## Dados climáticos cedidos pela INMET
+## Dados climáticos cedidos pela INMET ([link](./Nota_Tecnica-Rede_estacoes_INMET.pdf))
 
 - codigo estacao (localizacao)
 
@@ -58,39 +58,39 @@
 
 - hora  (apenas a hora)
 
-- temperatura instantanea (medida em °C)
+- Temperatura Instantânea do Ar (medida em °C)
 
-- temperatura maxima    (medida em °C)
+- Temperatura Máxima do Ar    (medida em °C)
 
-- temperatura minima    (medida em °C)
+- Temperatura Mínima do Ar    (medida em °C)
 
-- umidade instantanea   (indicada em %)
+- Umidade Relativa Instantânea do Ar   (indicada em %)
 
-- umidade maxima    (indicada em %)
+- Umidade Relativa Máxima do Ar    (indicada em %)
 
-- umidade minima    (indicada em %)
+- Umidade Relativa Mínima do Ar    (indicada em %)
 
-- ponto de orvalho instantanea  (medida em °C)
+- Temperatura Instantânea do Ponto de Orvalho  (medida em °C)
 
-- ponto de orvalho maximo   (medida em °C)
+- Temperatura Máxima do Ponto de Orvalho   (medida em °C)
 
-- ponto de orvalho minimo   (medida em °C)
+- Temperatura Mínima do Ponto de Orvalho   (medida em °C)
 
-- pressao instantanea   (medida em hPa)
+- Pressão Atmosférica Instantânea do Ar   (medida em hPa)
 
-- pressao maxima    (medida em hPa)
+- Pressão Atmosférica Máxima do Ar    (medida em hPa)
 
-- pressao minima    (medida em hPa)
+- Pressão Atmosférica Mínima do Ar    (medida em hPa)
 
-- direcao do vento  (medida em °)
+- Direção do Vento  (medida em °)
 
-- velocidade vento  (medida em m/s)
+- Velocidade Instantânea do Vento  (medida em m/s)
 
-- rajada do vento   (medida em m/s)
+- Intensidade da Rajada do Vento   (medida em m/s)
 
-- radiacao  (medida em kJ/m²)
+- Radiação Solar  (medida em kJ/m²)
 
-- precipitacao  (medida em mm)
+- Precipitação acumulada no período  (medida em mm)
 
 ### Dados que iremos definitivamente usar e pq ?
 
