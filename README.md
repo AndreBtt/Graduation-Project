@@ -143,6 +143,12 @@ Caso isso nao fosse feito teriamos que arredondar o valor da hora baseado em alg
 
 Com as simplificacoes feitas basta juntar os dados cujas datas e hora sao iguais.
 
+
 ## O que é atraso ??
 
 Qual tempo iremos considerar para julgar se um voo está atrasado ?
+
+## Examinando os dados
+
+### Qual a proporcao de voos atrasados ?
+
