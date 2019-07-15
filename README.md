@@ -129,6 +129,20 @@
 
 ## Como juntar dados dos voos e dados climáticos ?
 
+### Simplificação inicial
+
+Para simplificar as coisas no inicio vamos fixar os aeroportos de origem e destino.
+
+Caso nao fizessemos essa simplificacao teriamos que criar um mapa onde dado o ICAO Aeródromo Origem/Destino deveria indicar o codigo estacao, ou vice versa.
+
+Como o valor de horario cedido pelas duas fontes é diferente, em um caso temos hora e minutos e no outro caso apenas minutos, vamos apenas discartar os minutos para nao termos problema de conversao de datas. 
+
+Caso isso nao fosse feito teriamos que arredondar o valor da hora baseado em algum criterio dos minutos, oq em casos extremos afetaria o dia/mes/ano caso arredondado para cima.
+
+### Juntando
+
+Com as simplificacoes feitas basta juntar os dados cujas datas e hora sao iguais.
+
 ## O que é atraso ??
 
 Qual tempo iremos considerar para julgar se um voo está atrasado ?
